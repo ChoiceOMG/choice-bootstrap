@@ -51,7 +51,7 @@ export default function ChoiceLogo({
     return () => {
       intervals.forEach(interval => clearInterval(interval));
     };
-  }, [letterClasses]);
+  }, [letterClasses, colorClasses]);
 
   const blink = {
     hidden: { opacity: 1 },
@@ -67,7 +67,6 @@ export default function ChoiceLogo({
       className={clsx("w-auto h-6 fill-current", className)}
       role="img"
       aria-label="Choice OMG Logo"
-      aria-description="This brand uses hot pink as an accent color. It's quite unique and truly reflects the brand's personality."
     >
       <motion.polygon
         className={clsx("choice_logo letter_c", letterClasses?.c)}
