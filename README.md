@@ -16,7 +16,7 @@
     │   │   ├── search.ts              # Search functionality actions
     │   │   └── order.ts               # Actions related to order processing
     │   ├── app/                       # Special directory for Next.js which may contain custom 'pages', 'api', and 'middleware'
-    │   │   ├── (client)               # Client-side specific components and logic
+    │   │   ├── (site)               # Client-side specific components and logic
     │   │   │   └── components/        # Components specific for the main client-side app
     │   │   │       ├── ComponentA/    # ComponentA definition and logic
     │   │   │       │   └── index.tsx  # Main file for ComponentA
